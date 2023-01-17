@@ -1,0 +1,57 @@
+<html>
+<body>
+
+<h2>JavaScript Regular Expressions</h2>
+
+
+<script>
+let a = "Vaishnavi is precious";
+var x="Say Hey to vaishnavi"
+var l="12345972478"
+let b = /V/i; //modifier
+let c = a.match(b);
+let d=/v/gi;//groups
+let e=a.match(d);
+let f = /[a]/g;
+let g = x.match(f);
+let h = /[1-3]/g;// print no between 1 to 3 ie 1,2,3,2 2 is repeated twice in string
+let i = l.match(h);
+
+document.write("modifer using i "+c +"<br>");
+document.write(e+"<br>");
+document.write(g+"<br>");
+document.write(i+"<br>");
+
+let t = "Give your 101%!"; 
+let p = /\D/g;    //D print non digit for input string is GIVE YOUR
+let r = t.match(p);
+document.write(r +"<br>");
+
+let p2= /\d/g;   // d print  digit for input string ie 1 0 1
+let r2= t.match(p2);
+document.write(r2 +"<br>");
+
+var a1 = "Heyyyyy hey heyyeyyy"  
+var b1 = /ey*/g; ////print ey* y till last y * use for that 
+var c1 = a1.match(b1);
+document.write(c1 +"<br>")
+
+let reg1 = "Sale Sale Sale...!free";
+let r3 = /e/;
+let r4 = r3.test(reg1);//test method returns true if it finds a match, otherwise false.
+document.write(r4 +"<br>")
+
+
+let s= "I love JavaScript.";
+let s1=/J/;// searching J and return index od it
+let s2 = s.search(s1);
+document.write(s2);
+
+const message = "ball bat";
+let result = message.replaceAll('b', 'c');// replace all b with c
+document.write(result);
+
+</script>
+
+</body>
+</html>

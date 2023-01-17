@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>1.External JS Code</h1>
+	<button type="button" id="J1">Touch Me</button><br>
+
+	<button type="button" id="a">On click</button><br>
+	<script  src="js1.js"></script>
+
+	<h1>2.Inline JS code</h1><br>
+	<button onclick="alert('Welcome')">click button</button>
+
+	<h3>3.Window.Print to directly print pg</h3>
+	<button type="button" onclick="window.print()">print the Page</button>
+
+
+<h3>4.InnerHtml</h3>
+<p id="P1"> vaishnavi  Addition is </p>
+<script>
+	var a=6,b=6;
+	var c=a+b;
+document.getElementById("P1").innerHTML=('Addition is '+ c);
+</script><br>
+
+<h3>5.Document.write</h3>
+<script utype="text/javascript">
+	let x,y,z
+	x=16;
+	y=14;
+	z=x+y;
+	document.write('Addition of ',x,' and ',y,' is ',z);
+</script>
+
+<h3>6.Console</h3> //insept it multiplication of 70 and 30
+<script >
+	const p=70,q=30;
+console.log("multiplication",p,"and",q,"is",p*q);
+</script>
+
+<h3>7.Break</h3>
+<script >
+	window.alert("hello\n Welcome");
+</script>
+<script >
+	document.write("Good Evenining "+"<br>");
+	document.write("Have a great time");
+	document.write("Byeee!"+"<br>")
+</script>
+
+
+</body>
+</html>
