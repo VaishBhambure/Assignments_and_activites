@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<form>
+<heading>Informantion About Student</heading>
+<S1>
+<name>Vaishnavi</name>
+<lname>Bhambure</lname>
+<Rollno>19</Rollno>
+<Country>India</Country>
+<subject>Software Testing</subject>
+</S1>
+<S2>
+<name>Rutuja</name>
+<lname>Jadhav</lname>
+<Rollno>34</Rollno>
+<Country>India</Country>
+<subject>Python</subject>
+</S2>
+<info>
+<par>Hello Everyone!</par>
+<wel>Welcome All </wel>
+</info>
+</form>
